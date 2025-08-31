@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="テキストテキストテキスト">
+        <title>きたむらミュージックスクール</title>
+        <link rel="icon" href="./music-shcool-img/パス 14.png">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./music-shcool-contact.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./jquery.inview.min.js"></script>
+        <script src="./music-shcool.js"></script>
+    </head>
+
+    <body>
+        <header id="header">
+            <a class="companyname" href="index.html">
+                <img src="music-shcool-img/パス 14.png" alt="">
+                <div class="nametext">
+                    <p>きたむら<span class="nametext-span">ミュージックスクール</span></p>
+                </div>
+            </a>
+                <nav class="navi">
+                    <ul>
+                        <li><a href="music-shcoolo-price.html">料金</a></li>
+                        <li><a href="music-shcool-blog1.html">ブログ</a></li>
+                        <li><a href="music-shcool-result-list.html">卒業実績</a></li>
+                        <li><a href="music-shcool-contact.html" class="navi-contact">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+
+                <div class="none">
+                    <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav id="ham-navi">
+                    <ul class="menu">
+                        <li><a href="music-shcoolo-price.html">料金</a></li>
+                        <li><a href="music-shcool-blog1.html">ブログ</a></li>
+                        <li><a href="music-shcool-result-list.html">卒業実績</a></li>
+                    </ul>
+                </nav>
+                </div>
+        </header>
+
+        <main>
+            <section id="about">
+                <div class="pc-img">
+                    <img src="music-shcool-img/Contact.png" alt="">
+                </div>
+                <div class="sp-img">
+                    <img src="music-shcool-img/Contact-sp.png" alt="">
+                </div>
+                    <h3>お問い合わせ</h3>
+            </section>
+            <div id="root">
+                <p><a class="home-link" href="index.html">ホーム</a>
+                    <span class="to">></span>
+                    お問い合わせ</p>
+            </div>
+
+            <div class="text-excerpt">
+                <p>当校に関するご質問・ご相談・資料請求は下記のフォームからお気軽にお問い合わせください。
+                    <span>通常３営業日以内にメールにてご連絡させていただきます。</span></p>
+            </div>
+
+            <form id="contactForm" action="send.php" method="post" class="contact-form">
+                
+                <!-- 一行入力 -->
+                <div class="form-group">
+                    <label for="company">会社名</label>
+                    <input type="text" id="company" name="company" placeholder="きたむらミュージックスクール">
+                </div>    
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name" placeholder="北村　翔平" required>
+                </div>     
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="email" placeholder="info@kitamura.musicschool.jp" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">電話番号</label>
+                    <input type="tel" id="phone" name="phone" placeholder="090-1234-5678">
+                </div>
+
+                <!-- チェックボックス -->
+                <div class="form-group">
+                    <p>目　的 <br class="pc">(複数選択可)</p>
+                        <div class="aim-wrap">
+                            <label class="aim"><input type="checkbox" name="inquiry[]" value="plan"> プランについてのお問い合わせ</label><br>
+                            <label class="aim"><input type="checkbox" name="inquiry[]" value="hearing"> ヒアリングのご予約</label><br>
+                            <label class="aim"><input type="checkbox" name="inquiry[]" value="materials"> 資料請求</label><br>
+                            <label class="aim"><input type="checkbox" name="inquiry[]" value="other"> その他</label>
+                        </div>
+                </div>
+                
+                <!-- 複数行入力 -->
+                <div class="form-group">
+                    <label for="message">内　容</label>
+                    <textarea id="message" name="message" rows="10" placeholder="内容に関する詳細や備考等をご入力ください。" required></textarea>
+                </div>
+                
+                <!-- 送信ボタン -->
+                <div class="form-group">
+                    <button type="submit">送信</button>
+                </div>
+            </form>
+            
+            <div id="totop" class="arrow"></div>
+        </main>
+
+
+        <footer id="footer">
+            <nav class="footer-navi">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="music-shcoolo-price.html">料金</a></li>
+                    <li><a href="music-shcool-blog1.html">ブログ</a></li>
+                    <li><a href="music-shcool-result-list.html">卒業実績</a></li>
+                </ul>
+            </nav>
+            <img src="music-shcool-img/logo-white.png" alt="">
+            <p class="copyright">&copy;Copyright © 0000 KITAMURA music school Inc. All Rights</p>
+            <nav class="sns">
+                <ul>
+                    <li><a href=""><img src="music-shcool-img/icon-twitter.png" alt=""></a></li>
+                    <li><a href=""><img src="music-shcool-img/icon-facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="music-shcool-img/icon-youtube.png" alt=""></a></li>
+                    <li><a href=""><img src="music-shcool-img/icon-instagram.png" alt=""></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

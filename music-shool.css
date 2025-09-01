@@ -762,6 +762,8 @@ h4{
     }
     #firstview h1{
         width: 100%;
+        font-size: 30px;
+        line-height: 50px;
     }
 
     #mainvisual{

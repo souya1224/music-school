@@ -829,7 +829,7 @@ h4{
     #voice button.prev, 
     #voice button.next{
         position: absolute;
-        top: 50%;
+        top: 45%;
         font-size: 4rem;
         z-index: 40;
     }

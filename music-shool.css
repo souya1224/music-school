@@ -779,6 +779,7 @@ h4{
     }
     #mainvisual .semicircle img{
         width: 100%;
+        max-width: 100%;
         height: auto;
         aspect-ratio: 335 / 37;
         object-fit: contain;

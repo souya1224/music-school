@@ -754,7 +754,7 @@ body{
         margin-bottom: 27px;
     }
     .apllication .aplli-img{
-        padding: 10px 27px 10px 27px;
+        padding: 10px 27px 10px 27px; 
     }
     .apllication .aplli-text{
         display: none;
@@ -842,6 +842,9 @@ body{
         width: 50%;
         aspect-ratio: 160 / 110;
         margin-right: 20px;
+    }
+    .category .div-title p{
+        border-bottom: none;
     }
 
     #totop{

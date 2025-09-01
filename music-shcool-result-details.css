@@ -82,6 +82,12 @@ h4{
    padding: 10px 0 7px 100px;
    font-size: 16px;
    line-height: 33px;
+   word-break: break-word;       /* 日本語を強制的に折り返す */
+   overflow-wrap: anywhere;      /* 英単語も折り返し可能にする */
+}
+#root a,
+#root span{
+    white-space: normal;
 }
 body{
     opacity: 1;

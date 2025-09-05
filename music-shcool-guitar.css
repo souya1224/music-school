@@ -322,6 +322,11 @@ body{
     gap: 30px;
     margin-top: 30px;
 }
+#related a{
+    display: flex;
+    margin: 0;
+    gap: 30px;
+}
 .blog-img{
     position: relative;
     max-width: 200px;
@@ -445,6 +450,8 @@ body{
 }
 .post-list li{
     margin-top: 15px;
+}
+.post-list a{
     display: flex;
 }
 .thumb-placeholder{

@@ -333,25 +333,25 @@ h4{
     box-sizing: border-box;
     padding: 10px;
 }
-.slider li img{
+.voice-list img{
     width: 100%;
     padding-right: 17px;
     padding-left: 17px;
 }
-.slider li h4{
+.voice-list h4{
     font-weight: 700;
     font-size: 22px;
     line-height: 33px;
     text-align: center;
-    padding-top: 17px;
-    padding-bottom: 10px;
+    padding: 17px 17px 10px 17px;
 }
-.slider li p{
+.voice-list p{
     text-align: left;
     font-size: 18px;
     line-height: 30px;
+    padding-left: 17px;
 }
-.slider img{
+.voice-list img{
     max-width: 100%;
     height: auto;
     display: block;
@@ -365,6 +365,11 @@ h4{
     background: transparent;
     color: #fff;
     color: rgba(255, 255, 255, 0.5); /* 白＋60%不透明 */
+}
+.voice-list{
+    color: #fff;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -526,6 +531,12 @@ h4{
 #blog ul li{
     flex: 1 1 calc(33.333% - 50px);
     padding-top: 20px;
+}
+#blog .blog-link{
+    text-decoration: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
 }
 #blog ul li p{
     font-size: 20px;
@@ -831,6 +842,9 @@ h4{
         aspect-ratio: 335 / 200;
     }.slider li h4{
         padding-top: 27px;
+    }
+    .voice-list p{
+        padding: 0;
     }
     .slider-container{
         position: relative;

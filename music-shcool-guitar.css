@@ -258,6 +258,7 @@ body{
     display: flex;
     gap: 80px;
     padding-bottom: 100px;
+    justify-content: space-between; /* 左右に配置 */
 }
 #article .pre-article,
 #article .next-article{
@@ -466,7 +467,7 @@ body{
     line-height: 28px;
     font-weight: 500;
 }
-.category p{
+.category p:not(.div-title p){
     border-bottom: 0.5px solid #000;
     padding-top: 12px;
     padding-bottom: 7px;
